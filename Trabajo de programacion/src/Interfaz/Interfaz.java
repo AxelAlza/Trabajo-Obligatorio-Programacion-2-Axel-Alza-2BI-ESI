@@ -1,7 +1,8 @@
+package Interfaz;
 
 import java.util.Scanner;
 
-
+import Logica.Clases;
 
 public class Interfaz {
 

@@ -1,6 +1,7 @@
+package Logica;
 import java.util.ArrayList;
 
-class Clases {
+public class Clases {
 
 	ArrayList<Empleados> Emps = new ArrayList<Empleados>();
 
@@ -10,7 +11,7 @@ class Clases {
 	// Me parece que no entendi nada de que va la idea de la herencia por que me
 	// esta creando mas problemas de los que soluciona profe help jaja
 
-	public class Empleados {
+	private class Empleados {
 		long Cedula;
 		String Nombre;
 		String Apellido;
